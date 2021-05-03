@@ -33,7 +33,6 @@ namespace App3
             this.btn_Rectangle = new System.Windows.Forms.Button();
             this.btn_Triangle = new System.Windows.Forms.Button();
             this.btn_Circle = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btn_Line
@@ -80,19 +79,11 @@ namespace App3
             this.btn_Circle.UseVisualStyleBackColor = true;
             this.btn_Circle.Click += new System.EventHandler(this.btn_Circle_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(-2, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(871, 431);
-            this.panel1.TabIndex = 5;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 497);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_Circle);
             this.Controls.Add(this.btn_Triangle);
             this.Controls.Add(this.btn_Rectangle);
@@ -108,7 +99,6 @@ namespace App3
         private System.Windows.Forms.Button btn_Rectangle;
         private System.Windows.Forms.Button btn_Triangle;
         private System.Windows.Forms.Button btn_Circle;
-        private System.Windows.Forms.Panel panel1;
     }
 }
 
