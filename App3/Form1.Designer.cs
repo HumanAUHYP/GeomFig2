@@ -33,13 +33,13 @@ namespace App3
             this.btn_Rectangle = new System.Windows.Forms.Button();
             this.btn_Triangle = new System.Windows.Forms.Button();
             this.btn_Circle = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btn_Line
             // 
             this.btn_Line.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btn_Line.Location = new System.Drawing.Point(121, 216);
+            this.btn_Line.Location = new System.Drawing.Point(124, 12);
             this.btn_Line.Name = "btn_Line";
             this.btn_Line.Size = new System.Drawing.Size(96, 39);
             this.btn_Line.TabIndex = 1;
@@ -50,7 +50,7 @@ namespace App3
             // btn_Rectangle
             // 
             this.btn_Rectangle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btn_Rectangle.Location = new System.Drawing.Point(258, 216);
+            this.btn_Rectangle.Location = new System.Drawing.Point(261, 12);
             this.btn_Rectangle.Name = "btn_Rectangle";
             this.btn_Rectangle.Size = new System.Drawing.Size(134, 39);
             this.btn_Rectangle.TabIndex = 2;
@@ -61,7 +61,7 @@ namespace App3
             // btn_Triangle
             // 
             this.btn_Triangle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btn_Triangle.Location = new System.Drawing.Point(431, 216);
+            this.btn_Triangle.Location = new System.Drawing.Point(434, 12);
             this.btn_Triangle.Name = "btn_Triangle";
             this.btn_Triangle.Size = new System.Drawing.Size(122, 39);
             this.btn_Triangle.TabIndex = 3;
@@ -72,7 +72,7 @@ namespace App3
             // btn_Circle
             // 
             this.btn_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.btn_Circle.Location = new System.Drawing.Point(588, 216);
+            this.btn_Circle.Location = new System.Drawing.Point(591, 12);
             this.btn_Circle.Name = "btn_Circle";
             this.btn_Circle.Size = new System.Drawing.Size(96, 39);
             this.btn_Circle.TabIndex = 4;
@@ -80,22 +80,19 @@ namespace App3
             this.btn_Circle.UseVisualStyleBackColor = true;
             this.btn_Circle.Click += new System.EventHandler(this.btn_Circle_Click);
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(302, 118);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 31);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Create figure";
+            this.panel1.Location = new System.Drawing.Point(-2, 68);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(871, 431);
+            this.panel1.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(867, 497);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_Circle);
             this.Controls.Add(this.btn_Triangle);
             this.Controls.Add(this.btn_Rectangle);
@@ -103,7 +100,6 @@ namespace App3
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -112,7 +108,7 @@ namespace App3
         private System.Windows.Forms.Button btn_Rectangle;
         private System.Windows.Forms.Button btn_Triangle;
         private System.Windows.Forms.Button btn_Circle;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
